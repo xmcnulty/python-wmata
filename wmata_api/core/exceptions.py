@@ -1,0 +1,2 @@
+class WmataApiException(Exception):
+    pass
