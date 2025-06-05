@@ -1,11 +1,13 @@
 import logging
-from typing import List
+from typing import List, TypeVar, Callable
 
+from wmata_api.core.exceptions import WmataApiException
 from wmata_api.core.rest_adapter import RestAdapter
 from wmata_api.train_positions.standard_route import StandardRoute
 from wmata_api.train_positions.track_circuit import DetailedTrackCircuit
 from wmata_api.train_positions.train_position import TrainPosition
 
+T = TypeVar('T')
 
 class TrainsPositionsApi:
     _hostname = "api.wmata.com/TrainPositions"
@@ -13,7 +15,13 @@ class TrainsPositionsApi:
     # required parameter
     _params = {"contentType": "json"}
 
-    def __init__(self, api_key: str, ssl_verify: bool = True, logger: logging.Logger = None) -> None:
+    def __init__(
+            self,
+            api_key: str,
+            ssl_verify: bool = True,
+            logger: logging.Logger = None,
+            safe_mode: bool = False
+    ) -> None:
         """
                 Initializes the TrainsPositionsApi client.
 
@@ -21,13 +29,53 @@ class TrainsPositionsApi:
                     api_key (str): WMATA API key. (required)
                     ssl_verify (bool): Whether to verify SSL certificates. Default is True.
                     logger (logging.Logger, optional): Optional logger instance for debugging/logging.
+                    safe_mode (bool): If True, skips over malformed entries instead of raising an exception.
                 """
+        self.safe_mode = safe_mode
+
+        self._logger = logger or logging.getLogger(__name__)
+
         self._rest_adapter = RestAdapter(
             hostname=self._hostname,
             api_key=api_key,
             ssl_verify=ssl_verify,
-            logger=logger
+            logger=self._logger
         )
+
+    def _get_and_parse( self, endpoint: str, key: str, parser: Callable[[dict], T]) -> List[T]:
+        """
+        Fetches data from the given WMATA endpoint, extracts a list from the specified key,
+        and parses each item using the provided parser function.
+
+        Args:
+            endpoint (str): API endpoint, e.g., "TrainPositions"
+            key (str): Key in the JSON response that holds a list of items
+            parser (Callable[[dict], T]): Function to parse each item
+
+        Returns:
+            List[T]: List of successfully parsed objects
+
+        Raises:
+            WmataApiException: If parsing fails and safe_mode is False
+        """
+
+        result = self._rest_adapter.get(endpoint=endpoint, params=self._params)
+        items = result.data.get(key, [])
+
+        parsed = []
+
+        for i, item in enumerate(items):
+            try:
+                parsed.append(parser(item))
+            except Exception as e:
+                msg = f"Failed to parse item from {endpoint} at index {i}: {e}"
+                if self.safe_mode:
+                    self._logger.warning(f"Skipping malformed item: {msg}")
+                else:
+                    self._logger.error(msg)
+                    raise WmataApiException(f"Failed to pars JSON from {endpoint}") from e
+
+        return parsed
 
     def get_train_positions(self) -> List[TrainPosition]:
         """
@@ -37,11 +85,7 @@ class TrainsPositionsApi:
         Returns:
             List[TrainPosition]: A list of TrainPosition objects representing each train's current location.
         """
-        result = self._rest_adapter.get(endpoint="TrainPositions", params=self._params)
-
-        positions_data = result.data.get("TrainPositions", [])
-
-        return [TrainPosition.from_json(p) for p in positions_data]
+        return self._get_and_parse("TrainPositions", "TrainPositions", TrainPosition.from_json)
 
     def get_standard_routes(self) -> List[StandardRoute]:
         """
@@ -51,11 +95,7 @@ class TrainsPositionsApi:
         Returns:
             List[StandardRoute]: A list of StandardRoute objects defining the predefined train paths.
         """
-        result = self._rest_adapter.get(endpoint="StandardRoutes", params=self._params)
-
-        standard_routes_data = result.data.get("StandardRoutes", [])
-
-        return [StandardRoute.from_json(r) for r in standard_routes_data]
+        return self._get_and_parse("StandardRoutes", "StandardRoutes", StandardRoute.from_json)
 
     def get_detailed_track_circuits(self) -> List[DetailedTrackCircuit]:
         """
@@ -66,8 +106,4 @@ class TrainsPositionsApi:
         Returns:
             List[DetailedTrackCircuit]: A list of DetailedTrackCircuit objects with circuit-specific details.
         """
-        result = self._rest_adapter.get(endpoint="TrackCircuits", params=self._params)
-
-        circuits_data = result.data.get("TrackCircuits", [])
-
-        return [DetailedTrackCircuit.from_json(c) for c in circuits_data]
+        return self._get_and_parse("TrackCircuits", "TrackCircuits", DetailedTrackCircuit.from_json)
