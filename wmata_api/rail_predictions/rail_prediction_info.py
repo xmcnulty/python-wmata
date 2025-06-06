@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from typing import Optional, Dict
 
 @dataclass(frozen=True)
-class PredictionTrainInfo:
+class RailPredictionInfo:
     """
     Data class storing fields of AIMPredictionTrainInfo returned by WMATA API.
     https://developer.wmata.com/api-details#AIMPredictionTrainInfo
@@ -29,8 +29,8 @@ class PredictionTrainInfo:
     minutes: str
 
     @staticmethod
-    def from_json(json: Dict) -> "PredictionTrainInfo":
-        return PredictionTrainInfo(
+    def from_json(json: Dict) -> "RailPredictionInfo":
+        return RailPredictionInfo(
             num_cars=json["Car"],
             destination=json["Destination"],
             destination_code=json["DestinationCode"],
