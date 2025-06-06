@@ -8,8 +8,6 @@ from typing import TypeVar, Callable, List, Dict, Optional
 T = TypeVar('T')
 
 class WmataApiModule:
-    _params: Optional[Dict[str, str]] = None
-
     def __init__(
             self,
             rest_adapter: RestAdapter,
@@ -27,8 +25,8 @@ class WmataApiModule:
 
         self._rest_adapter = rest_adapter
 
-    def _get_and_parse_list(self, url, key: str, parser: Callable[[Dict], T]) -> List[T]:
-        result = self._rest_adapter.get(url, self._params)
+    def _get_and_parse_list(self, url, key: str, parser: Callable[[Dict], T], params: Dict = None) -> List[T]:
+        result = self._rest_adapter.get(url, params)
         items = result.data.get(key)
         if items is None:
             self._logger.error(f"Missing key '{key}' in response from {url}")
@@ -36,8 +34,8 @@ class WmataApiModule:
 
         return Parsing.parse_list(items, parser, self._logger)
 
-    def _get_and_parse_object(self, url, parser: Callable[[Dict], T]) -> T:
-        result = self._rest_adapter.get(url, self._params)
+    def _get_and_parse_object(self, url, parser: Callable[[Dict], T], params: Dict = None) -> T:
+        result = self._rest_adapter.get(url, params)
 
         try:
             obj = parser(result.data)
