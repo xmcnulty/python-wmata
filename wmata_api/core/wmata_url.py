@@ -30,6 +30,12 @@ class BusPredictionsEndpoint(WmataUrl, Enum):
 class RailInfoEndpoint(WmataUrl, Enum):
     RAIL_LINES = "Rail.svc/json/jLines"
     STATION_LIST = "Rail.svc/json/jStations"
+    PARKING_INFORMATION = "Rail.svc/json/jStationParking"
+    PATH_BETWEEN_STATIONS = "Rail.svc/json/jPath"
+    STATION_ENTRANCES = "Rail.svc/json/jStationEntrances"
+    STATION_INFORMATION = "Rail.svc/json/jStationInfo"
+    STATION_TIMING = "Rail.svc/json/jStationTimes"
+    STATION_TO_STATION = "Rail.svc/json/jSrcStationToDstStationInfo"
 
     def full_url(self) -> str:
         return f"{self._BASE_URL}/{self.value}"

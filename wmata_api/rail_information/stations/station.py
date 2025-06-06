@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Dict, List
 
-from wmata_api.rail_info.line_code import LineCode
+from wmata_api.rail_information.lines.line_code import LineCode
 
 
 @dataclass(frozen=True)
