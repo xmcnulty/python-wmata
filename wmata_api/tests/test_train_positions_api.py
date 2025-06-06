@@ -5,14 +5,14 @@ from wmata_api.train_positions.train_position import TrainPosition
 from wmata_api.train_positions.standard_route import StandardRoute
 from wmata_api.train_positions.track_circuit import DetailedTrackCircuit
 from wmata_api.core.rest_adapter import Result
-from wmata_api.train_positions.train_positions_api import TrainsPositionsApi
+from wmata_api.train_positions.train_positions import TrainPositions
 
 
 class TestTrainsPositionsApi(unittest.TestCase):
     def setUp(self):
         self.api_key = "fake-key"
         self.mock_logger = MagicMock()
-        self.api = TrainsPositionsApi(api_key=self.api_key, logger=self.mock_logger)
+        self.api = TrainPositions(api_key=self.api_key, logger=self.mock_logger)
         self.api._rest_adapter = MagicMock()
 
     def mock_result(self, key: str, items: list):
@@ -55,7 +55,7 @@ class TestTrainsPositionsApi(unittest.TestCase):
 
     def test_parser_error_with_safe_mode_on(self):
         data = [{"bad": "json"}]
-        api = TrainsPositionsApi(api_key=self.api_key, logger=self.mock_logger, safe_mode=True)
+        api = TrainPositions(api_key=self.api_key, logger=self.mock_logger, safe_mode=True)
         api._rest_adapter = MagicMock()
         api._rest_adapter.get.return_value = self.mock_result("TrainPositions", data)
 
