@@ -17,7 +17,7 @@ class TrainPositions(WmataApiModule):
         Returns:
             List[TrainPosition]: A list of TrainPosition objects representing each train's current location.
         """
-        return self._get_and_parse(TrainPositionsEndpoint.LIVE_TRAIN_POSITIONS, "TrainPositions", TrainPosition.from_json)
+        return self._get_and_parse_list(TrainPositionsEndpoint.LIVE_TRAIN_POSITIONS, "TrainPositions", TrainPosition.from_json)
 
     def get_standard_routes(self) -> List[StandardRoute]:
         """
@@ -27,7 +27,7 @@ class TrainPositions(WmataApiModule):
         Returns:
             List[StandardRoute]: A list of StandardRoute objects defining the predefined train paths.
         """
-        return self._get_and_parse(TrainPositionsEndpoint.STANDARD_ROUTES, "StandardRoutes", StandardRoute.from_json)
+        return self._get_and_parse_list(TrainPositionsEndpoint.STANDARD_ROUTES, "StandardRoutes", StandardRoute.from_json)
 
     def get_detailed_track_circuits(self) -> List[DetailedTrackCircuit]:
         """
@@ -38,4 +38,4 @@ class TrainPositions(WmataApiModule):
         Returns:
             List[DetailedTrackCircuit]: A list of DetailedTrackCircuit objects with circuit-specific details.
         """
-        return self._get_and_parse(TrainPositionsEndpoint.TRACK_CIRCUITS, "TrackCircuits", DetailedTrackCircuit.from_json)
+        return self._get_and_parse_list(TrainPositionsEndpoint.TRACK_CIRCUITS, "TrackCircuits", DetailedTrackCircuit.from_json)

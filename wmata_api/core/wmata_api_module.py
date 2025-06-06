@@ -27,7 +27,7 @@ class WmataApiModule:
 
         self._rest_adapter = rest_adapter
 
-    def _get_and_parse(self, url, key: str, parser: Callable[[Dict], T]) -> List[T]:
+    def _get_and_parse_list(self, url, key: str, parser: Callable[[Dict], T]) -> List[T]:
         result = self._rest_adapter.get(url, self._params)
         items = result.data.get(key)
         if items is None:
@@ -35,3 +35,13 @@ class WmataApiModule:
             raise WmataApiException(f"Response missing expected key: {key}")
 
         return Parsing.parse_list(items, parser, self._logger)
+
+    def _get_and_parse_object(self, url, parser: Callable[[Dict], T]) -> T:
+        result = self._rest_adapter.get(url, self._params)
+
+        try:
+            obj = parser(result.data)
+            return obj
+        except Exception as e:
+            self._logger.error(f"Failed to parse {result.data} returned from {url} with {parser.__name__}")
+            raise WmataApiException(f"Failed to parse {result.data} returned from {url}") from e

@@ -20,3 +20,9 @@ class RailPredictionsEndpoint(WmataUrl, Enum):
 
     def full_url(self) -> str:
         return f"{self._BASE_URL}/{self.value}"
+
+class BusPredictionsEndpoint(WmataUrl, Enum):
+    BUS_PREDICTIONS = "NextBusService.svc/json/jPredictions"
+
+    def full_url(self) -> str:
+        return f"{self._BASE_URL}/{self.value}"

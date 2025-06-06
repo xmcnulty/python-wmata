@@ -14,7 +14,7 @@ class RailPredictions(WmataApiModule):
     def _get(self, stations: List[str]) -> List[RailPredictionInfo]:
         url = self._build_url(stations)
 
-        return self._get_and_parse(url, "Trains", RailPredictionInfo.from_json)
+        return self._get_and_parse_list(url, "Trains", RailPredictionInfo.from_json)
 
     def get_all_predictions(self) -> List[RailPredictionInfo]:
         return self._get(['All'])
