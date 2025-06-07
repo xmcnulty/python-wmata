@@ -7,12 +7,12 @@ class WmataUrl:
         raise NotImplementedError("Subclasses must implement this method")
 
 class TrainPositionsEndpoint(WmataUrl, Enum):
-    LIVE_TRAIN_POSITIONS = "TrainPositions"
-    STANDARD_ROUTES = "StandardRoutes"
-    TRACK_CIRCUITS = "TrackCircuits"
+    LIVE_TRAIN_POSITIONS = "TrainPositions/TrainPositions"
+    STANDARD_ROUTES = "TrainPositions/StandardRoutes"
+    TRACK_CIRCUITS = "TrainPositions/TrackCircuits"
 
     def full_url(self) -> str:
-        return f"{self._BASE_URL}/TrainPositions/{self.value}"
+        return f"{self._BASE_URL}/{self.value}"
 
 
 class RailPredictionsEndpoint(WmataUrl, Enum):
@@ -36,6 +36,14 @@ class RailInfoEndpoint(WmataUrl, Enum):
     STATION_INFORMATION = "Rail.svc/json/jStationInfo"
     STATION_TIMING = "Rail.svc/json/jStationTimes"
     STATION_TO_STATION = "Rail.svc/json/jSrcStationToDstStationInfo"
+
+    def full_url(self) -> str:
+        return f"{self._BASE_URL}/{self.value}"
+
+class IncidentsEndpoint(WmataUrl, Enum):
+    BUS_INCIDENTS = "Incidents.svc/json/BusIncidents"
+    RAIL_INCIDENTS = "Incidents.svc/json/Incidents"
+    ELEVATOR_ESCALATOR_INCIDENTS = "Incidents.svc/json/ElevatorIncidents"
 
     def full_url(self) -> str:
         return f"{self._BASE_URL}/{self.value}"

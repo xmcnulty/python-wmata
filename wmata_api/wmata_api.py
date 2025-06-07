@@ -2,6 +2,7 @@ import logging
 
 from wmata_api.bus_predictions.bus_predictions import BussPredictions
 from wmata_api.core.rest_adapter import RestAdapter
+from wmata_api.incidents.incidents import Incidents
 from wmata_api.rail_information.rail_information import RailInformation
 from wmata_api.rail_predictions.rail_predictions import RailPredictions
 from wmata_api.train_positions.train_positions import TrainPositions
@@ -25,3 +26,4 @@ class WmataApi:
         self.rail_predictions = RailPredictions(self._rest_adapter, self._logger)
         self.bus_predictions = BussPredictions(self._rest_adapter, self._logger)
         self.rail_info = RailInformation(self._rest_adapter, self._logger)
+        self.incidents = Incidents(self._rest_adapter, self._logger)
