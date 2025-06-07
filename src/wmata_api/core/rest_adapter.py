@@ -6,8 +6,8 @@ from json import JSONDecodeError
 
 from requests import HTTPError
 
-from wmata_api.core.exceptions import WmataApiException
-from wmata_api.core.result import Result
+from src.wmata_api.core.exceptions import WmataApiException
+from src.wmata_api.core.result import Result
 
 from typing import Dict, Optional
 

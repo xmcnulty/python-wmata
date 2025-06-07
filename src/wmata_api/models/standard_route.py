@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import List
 
-from wmata_api.train_positions.track_circuit import SequencedTrackCircuit
+from src.wmata_api.models.track_circuit import SequencedTrackCircuit
 
 
 @dataclass(frozen=True)

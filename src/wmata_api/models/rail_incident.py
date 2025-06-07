@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from datetime import datetime
 from typing import List
 
-from wmata_api.rail_information.lines.line_code import LineCode
+from src.wmata_api.models.line_code import LineCode
 
 
 @dataclass(frozen=True)

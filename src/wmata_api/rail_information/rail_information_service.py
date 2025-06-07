@@ -1,8 +1,8 @@
 import logging
 
-from wmata_api.core.rest_adapter import RestAdapter
-from wmata_api.rail_information.lines.line_information import LineInformation
-from wmata_api.rail_information.stations.station_information import StationInformation
+from src.wmata_api.core.rest_adapter import RestAdapter
+from src.wmata_api.rail_information.lines.line_information_service import LineInformation
+from src.wmata_api.rail_information.stations.station_information_service import StationInformation
 
 
 class RailInformation:

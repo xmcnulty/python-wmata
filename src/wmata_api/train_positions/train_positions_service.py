@@ -1,9 +1,9 @@
 from typing import List
-from wmata_api.core.wmata_api_module import WmataApiModule
-from wmata_api.core.wmata_url import TrainPositionsEndpoint
-from wmata_api.train_positions.standard_route import StandardRoute
-from wmata_api.train_positions.track_circuit import DetailedTrackCircuit
-from wmata_api.train_positions.train_position import TrainPosition
+from src.wmata_api.core.wmata_api_module import WmataApiModule
+from src.wmata_api.core.wmata_endpoint import TrainPositionsEndpoint
+from src.wmata_api.models.standard_route import StandardRoute
+from src.wmata_api.models.track_circuit import DetailedTrackCircuit
+from src.wmata_api.models.train_position import TrainPosition
 
 class TrainPositions(WmataApiModule):
     # required parameter
@@ -17,7 +17,7 @@ class TrainPositions(WmataApiModule):
         Returns:
             List[TrainPosition]: A list of TrainPosition objects representing each train's current location.
         """
-        return self._get_and_parse_list(TrainPositionsEndpoint.LIVE_TRAIN_POSITIONS, "TrainPositions", TrainPosition.from_json, self._params)
+        return self._get_and_parse_list(TrainPositionsEndpoint.LIVE_TRAIN_POSITIONS.full_url, "TrainPositions", TrainPosition.from_json, self._params)
 
     def get_standard_routes(self) -> List[StandardRoute]:
         """
@@ -27,7 +27,7 @@ class TrainPositions(WmataApiModule):
         Returns:
             List[StandardRoute]: A list of StandardRoute objects defining the predefined train paths.
         """
-        return self._get_and_parse_list(TrainPositionsEndpoint.STANDARD_ROUTES, "StandardRoutes", StandardRoute.from_json, self._params)
+        return self._get_and_parse_list(TrainPositionsEndpoint.STANDARD_ROUTES.full_url, "StandardRoutes", StandardRoute.from_json, self._params)
 
     def get_detailed_track_circuits(self) -> List[DetailedTrackCircuit]:
         """
@@ -38,4 +38,4 @@ class TrainPositions(WmataApiModule):
         Returns:
             List[DetailedTrackCircuit]: A list of DetailedTrackCircuit objects with circuit-specific details.
         """
-        return self._get_and_parse_list(TrainPositionsEndpoint.TRACK_CIRCUITS, "TrackCircuits", DetailedTrackCircuit.from_json, self._params)
+        return self._get_and_parse_list(TrainPositionsEndpoint.TRACK_CIRCUITS.full_url, "TrackCircuits", DetailedTrackCircuit.from_json, self._params)

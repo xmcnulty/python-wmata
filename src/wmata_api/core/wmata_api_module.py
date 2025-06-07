@@ -1,7 +1,7 @@
 import logging
 
-from wmata_api.core.exceptions import WmataApiException
-from wmata_api.core.rest_adapter import RestAdapter
+from src.wmata_api.core.exceptions import WmataApiException
+from src.wmata_api.core.rest_adapter import RestAdapter
 from typing import TypeVar, Callable, List, Dict
 
 T = TypeVar('T')

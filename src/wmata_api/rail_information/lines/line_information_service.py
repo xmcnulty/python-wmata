@@ -1,9 +1,9 @@
 from typing import List
 
-from wmata_api.core.wmata_api_module import WmataApiModule
-from wmata_api.core.wmata_url import RailInfoEndpoint
-from wmata_api.rail_information.lines.metro_path_item import MetroPathItem
-from wmata_api.rail_information.lines.rail_line import RailLine
+from src.wmata_api.core.wmata_api_module import WmataApiModule
+from src.wmata_api.core.wmata_endpoint import RailInfoEndpoint
+from src.wmata_api.models.metro_path_item import MetroPathItem
+from src.wmata_api.models.rail_line import RailLine
 
 
 class LineInformation(WmataApiModule):
@@ -14,7 +14,7 @@ class LineInformation(WmataApiModule):
         }
 
         return self._get_and_parse_list(
-            url=RailInfoEndpoint.PATH_BETWEEN_STATIONS.full_url(),
+            url=RailInfoEndpoint.PATH_BETWEEN_STATIONS.full_url,
             key="Path",
             parser=MetroPathItem.from_json,
             params=params
@@ -22,7 +22,7 @@ class LineInformation(WmataApiModule):
 
     def get_rail_lines(self) -> List[RailLine]:
         return self._get_and_parse_list(
-            url=RailInfoEndpoint.RAIL_LINES.full_url(),
+            url=RailInfoEndpoint.RAIL_LINES.full_url,
             key="Lines",
             parser=RailLine.from_json
         )

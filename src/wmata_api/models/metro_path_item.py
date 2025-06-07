@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from wmata_api.rail_information.lines.line_code import LineCode
+from src.wmata_api.models.line_code import LineCode
 
 
 @dataclass(frozen=True)

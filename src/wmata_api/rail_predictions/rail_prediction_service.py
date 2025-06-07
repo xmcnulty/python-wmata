@@ -1,14 +1,14 @@
 from typing import List
 
-from wmata_api.core.wmata_api_module import WmataApiModule
-from wmata_api.core.wmata_url import RailPredictionsEndpoint
-from wmata_api.rail_predictions.rail_prediction_info import RailPredictionInfo
+from src.wmata_api.core.wmata_api_module import WmataApiModule
+from src.wmata_api.core.wmata_endpoint import RailPredictionsEndpoint
+from src.wmata_api.models.rail_prediction_info import RailPredictionInfo
 
 
 class RailPredictions(WmataApiModule):
     @staticmethod
     def _build_url(station_codes: List[str]) -> str:
-        url_base = RailPredictionsEndpoint.RAIL_PREDICTIONS.full_url()
+        url_base = RailPredictionsEndpoint.RAIL_PREDICTIONS.full_url
         return f"{url_base}/{','.join(station_codes)}"
 
     def _get(self, stations: List[str]) -> List[RailPredictionInfo]:
