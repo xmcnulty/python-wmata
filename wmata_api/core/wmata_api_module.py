@@ -1,9 +1,8 @@
 import logging
 
 from wmata_api.core.exceptions import WmataApiException
-from wmata_api.core.parsing import Parsing
 from wmata_api.core.rest_adapter import RestAdapter
-from typing import TypeVar, Callable, List, Dict, Optional
+from typing import TypeVar, Callable, List, Dict
 
 T = TypeVar('T')
 
@@ -32,7 +31,20 @@ class WmataApiModule:
             self._logger.error(f"Missing key '{key}' in response from {url}")
             raise WmataApiException(f"Response missing expected key: {key}")
 
-        return Parsing.parse_list(items, parser, self._logger)
+        if not isinstance(items, list):
+            self._logger.error("Expected a list of items to parse, got: %s", type(items).__name__)
+            raise WmataApiException("Invalid input: Expected a list of items.")
+
+        parsed = []
+
+        for i, item in enumerate(items):
+            try:
+                parsed.append(parser(item))
+            except Exception as e:
+                self._logger.error(f"Failed to parse {item} at index {i}: {e}")
+                raise WmataApiException("Failed to parse JSON list.") from e
+
+        return parsed
 
     def _get_and_parse_object(self, url, parser: Callable[[Dict], T], params: Dict = None) -> T:
         result = self._rest_adapter.get(url, params)
