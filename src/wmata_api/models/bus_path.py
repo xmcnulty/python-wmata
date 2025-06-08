@@ -22,7 +22,7 @@ class ShapePoint:
 class BusPathLeg:
     direction: BusDirection
     stops: List[BusStop]
-    trip_headsign: str
+    destination: str
     shape: List[ShapePoint]
 
     @staticmethod
@@ -30,7 +30,7 @@ class BusPathLeg:
         return BusPathLeg(
             direction=BusDirection.from_string(json["DirectionText"]),
             stops=[BusStop.from_json(s) for s in json["Stops"]],
-            trip_headsign=json["TripHeadsign"],
+            destination=json["TripHeadsign"],
             shape=[ShapePoint.from_json(s) for s in json["Shape"]]
         )
 

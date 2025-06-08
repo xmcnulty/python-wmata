@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from datetime import datetime
 
+from wmata_api.core.utils import parse_wmata_timestamp
 from wmata_api.models.bus_direction import BusDirection
 
 
@@ -16,18 +17,20 @@ class BusPosition:
     trip_end_time: datetime
     trip_id: str
     vehicle_id: str
+    destination: str
 
     @staticmethod
     def from_json(json) -> "BusPosition":
         return BusPosition(
-            date_time = datetime.fromisoformat(json["DateTime"]),
+            date_time = parse_wmata_timestamp(json["DateTime"]),
             deviation = int(json["Deviation"]),
             direction = BusDirection.from_string(json["DirectionText"]),
             latitude = float(json["Lat"]),
             longitude = float(json["Lon"]),
             route_id = json["RouteID"],
-            trip_start_time = datetime.fromisoformat(json["TripStartTime"]),
-            trip_end_time = datetime.fromisoformat(json["TripEndTime"]),
+            trip_start_time = parse_wmata_timestamp(json["TripStartTime"]),
+            trip_end_time = parse_wmata_timestamp(json["TripEndTime"]),
             trip_id = json["TripID"],
-            vehicle_id = json["VehicleID"]
+            vehicle_id = json["VehicleID"],
+            destination= json["TripHeadsign"]
         )

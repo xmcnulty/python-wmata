@@ -1,0 +1,2205 @@
+{
+    "Direction0": [{
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T06:45:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T06:10:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T06:10:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T06:10:38Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T06:39:25Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T06:39:29Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T06:39:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T06:41:03Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T06:45:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794828"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T07:15:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T06:40:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T06:40:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T06:40:38Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T07:09:25Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T07:09:29Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T07:09:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T07:11:03Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T07:15:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794829"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T07:55:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T07:20:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T07:20:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T07:20:38Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T07:49:25Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T07:49:29Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T07:49:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T07:51:03Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T07:55:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794830"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T08:35:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T08:00:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T08:00:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T08:00:38Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T08:29:25Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T08:29:29Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T08:29:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T08:31:03Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T08:35:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794831"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T09:15:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T08:40:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T08:40:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T08:40:38Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T09:09:25Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T09:09:29Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T09:09:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T09:11:03Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T09:15:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794832"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T09:55:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T09:20:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T09:20:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T09:20:38Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T09:49:25Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T09:49:29Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T09:49:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T09:51:03Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T09:55:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794833"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T10:35:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T10:00:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T10:00:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T10:00:38Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T10:29:25Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T10:29:29Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T10:29:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T10:31:03Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T10:35:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794834"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T11:15:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T10:40:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T10:40:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T10:40:38Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T11:09:25Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T11:09:29Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T11:09:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T11:11:03Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T11:15:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794835"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T11:55:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T11:20:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T11:20:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T11:20:38Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T11:49:25Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T11:49:29Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T11:49:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T11:51:03Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T11:55:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794836"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T12:35:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T12:00:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T12:00:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T12:00:38Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T12:29:25Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T12:29:29Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T12:29:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T12:31:03Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T12:35:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794837"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T01:17:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T12:40:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T12:40:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T12:40:40Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T01:10:24Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T01:10:28Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T01:10:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T01:12:16Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T01:17:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794838"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T01:57:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T01:20:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T01:20:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T01:20:40Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T01:50:24Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T01:50:28Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T01:50:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T01:52:16Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T01:57:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794839"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T02:37:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T02:00:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T02:00:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T02:00:40Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T02:30:24Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T02:30:28Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T02:30:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T02:32:16Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T02:37:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794840"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T03:21:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T02:40:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T02:40:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T02:40:45Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T03:14:19Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T03:14:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T03:14:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T03:16:16Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T03:21:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794841"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T04:01:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T03:20:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T03:20:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T03:20:45Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T03:54:19Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T03:54:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T03:54:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T03:56:16Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T04:01:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794842"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T04:41:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T04:00:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T04:00:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T04:00:45Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T04:34:19Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T04:34:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T04:34:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T04:36:16Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T04:41:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794843"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T05:21:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T04:40:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T04:40:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T04:40:45Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T05:14:19Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T05:14:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T05:14:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T05:16:16Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T05:21:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794844"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T06:01:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T05:20:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T05:20:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T05:20:45Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T05:54:19Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T05:54:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T05:54:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T05:56:16Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T06:01:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794845"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T06:41:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T06:00:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T06:00:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T06:00:45Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T06:34:19Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T06:34:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T06:34:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T06:36:16Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T06:41:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794846"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T07:21:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T06:40:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T06:40:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T06:40:45Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T07:14:19Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T07:14:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T07:14:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T07:16:16Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T07:21:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794847"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T07:58:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T07:20:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T07:20:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T07:20:42Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T07:52:21Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T07:52:26Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T07:52:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T07:54:03Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T07:58:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794848"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T08:38:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T08:00:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T08:00:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T08:00:42Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T08:32:21Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T08:32:26Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T08:32:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T08:34:03Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T08:38:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794849"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T09:18:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T08:40:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T08:40:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T08:40:42Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T09:12:21Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T09:12:26Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T09:12:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T09:14:03Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T09:18:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794850"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T09:58:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T09:20:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T09:20:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T09:20:42Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T09:52:21Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T09:52:26Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T09:52:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T09:54:03Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T09:58:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794827"
+    }, {
+        "DirectionNum": "0",
+        "EndTime": "2014-10-27T10:38:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T10:00:00Z",
+        "StopTimes": [{
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 1,
+            "Time": "2014-10-27T10:00:00Z"
+        }, {
+            "StopID": "3002579",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 6,
+            "Time": "2014-10-27T10:00:42Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 63,
+            "Time": "2014-10-27T10:32:21Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 64,
+            "Time": "2014-10-27T10:32:26Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 68,
+            "Time": "2014-10-27T10:32:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 70,
+            "Time": "2014-10-27T10:34:03Z"
+        }, {
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 75,
+            "Time": "2014-10-27T10:38:00Z"
+        }],
+        "TripDirectionText": "NORTH",
+        "TripHeadsign": "BWI - THURGOOD MARSHALL  AIRPORT",
+        "TripID": "6794851"
+    }],
+    "Direction1": [{
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T07:32:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T06:54:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T06:54:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T06:58:25Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T06:58:38Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T06:59:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T07:00:18Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T07:31:26Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T07:32:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794859"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T08:12:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T07:34:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T07:34:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T07:38:25Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T07:38:38Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T07:39:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T07:40:18Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T08:11:26Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T08:12:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794860"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T08:52:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T08:14:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T08:14:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T08:18:25Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T08:18:38Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T08:19:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T08:20:18Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T08:51:26Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T08:52:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794861"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T09:29:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T08:53:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T08:53:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T08:58:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T08:58:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T08:59:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T09:00:16Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T09:28:29Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T09:29:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794862"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T10:09:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T09:33:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T09:33:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T09:38:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T09:38:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T09:39:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T09:40:16Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T10:08:29Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T10:09:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794858"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T10:49:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T10:13:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T10:13:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T10:18:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T10:18:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T10:19:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T10:20:16Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T10:48:29Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T10:49:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794863"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T11:29:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T10:53:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T10:53:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T10:58:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T10:58:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T10:59:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T11:00:16Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T11:28:29Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T11:29:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794864"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T12:09:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T11:33:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T11:33:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T11:38:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T11:38:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T11:39:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T11:40:16Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T12:08:29Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T12:09:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794865"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T12:49:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T12:13:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T12:13:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T12:18:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T12:18:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T12:19:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T12:20:16Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T12:48:29Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T12:49:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794866"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T01:29:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T12:53:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T12:53:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T12:58:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T12:58:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T12:59:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T01:00:16Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T01:28:29Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T01:29:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794867"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T02:09:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T01:33:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T01:33:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T01:38:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T01:38:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T01:39:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T01:40:16Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T02:08:29Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T02:09:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794868"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T02:52:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T02:13:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T02:13:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T02:18:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T02:18:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T02:19:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T02:20:18Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T02:51:26Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T02:52:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794869"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T03:32:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T02:53:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T02:53:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T02:58:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T02:58:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T02:59:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T03:00:18Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T03:31:26Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T03:32:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794870"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T04:12:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T03:33:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T03:33:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T03:38:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T03:38:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T03:39:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T03:40:18Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T04:11:26Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T04:12:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794871"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T04:52:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T04:13:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T04:13:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T04:18:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T04:18:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T04:19:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T04:20:18Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T04:51:26Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T04:52:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794872"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T05:32:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T04:53:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T04:53:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T04:58:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T04:58:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T04:59:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T05:00:18Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T05:31:26Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T05:32:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794873"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T06:12:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T05:33:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T05:33:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T05:38:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T05:38:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T05:39:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T05:40:18Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T06:11:26Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T06:12:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794874"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T06:52:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T06:13:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T06:13:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T06:18:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T06:18:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T06:19:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T06:20:18Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T06:51:26Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T06:52:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794875"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T07:32:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T06:53:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T06:53:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T06:58:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T06:58:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T06:59:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T07:00:18Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T07:31:26Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T07:32:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794876"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T08:12:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T07:33:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T07:33:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T07:38:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T07:38:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T07:39:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T07:40:18Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T08:11:26Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T08:12:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794852"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T08:52:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T08:13:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T08:13:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T08:18:09Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T08:18:24Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T08:19:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T08:20:18Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T08:51:26Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T08:52:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794853"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T09:29:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T08:54:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T08:54:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T08:58:25Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T08:58:38Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T08:59:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T09:00:16Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T09:28:29Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T09:29:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794854"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T10:09:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T09:34:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T09:34:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T09:38:25Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T09:38:38Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T09:39:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T09:40:16Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T10:08:29Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T10:09:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794857"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T10:49:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T10:14:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T10:14:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T10:18:25Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T10:18:38Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T10:19:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T10:20:16Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T10:48:29Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T10:49:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794855"
+    }, {
+        "DirectionNum": "1",
+        "EndTime": "2014-10-27T11:19:00Z",
+        "RouteID": "B30",
+        "StartTime": "2014-10-27T10:44:00Z",
+        "StopTimes": [{
+            "StopID": "3003039",
+            "StopName": "BWI BUSINESS DISTRICT LIGHT RAIL ST",
+            "StopSeq": 1,
+            "Time": "2014-10-27T10:44:00Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + LOADING AREA SIGN",
+            "StopSeq": 12,
+            "Time": "2014-10-27T10:48:25Z"
+        }, {
+            "StopID": "3004114",
+            "StopName": "BWI AIRPORT + STOP 1",
+            "StopSeq": 13,
+            "Time": "2014-10-27T10:48:38Z"
+        }, {
+            "StopID": "3003038",
+            "StopName": "BWI AIRPORT + STOP 2",
+            "StopSeq": 17,
+            "Time": "2014-10-27T10:49:59Z"
+        }, {
+            "StopID": "0",
+            "StopName": "BWI + EXIT SIGN",
+            "StopSeq": 19,
+            "Time": "2014-10-27T10:50:16Z"
+        }, {
+            "StopID": "3002578",
+            "StopName": "GREENBELT METRO DR + CHERRYWOOD LA",
+            "StopSeq": 79,
+            "Time": "2014-10-27T11:18:29Z"
+        }, {
+            "StopID": "3003037",
+            "StopName": "GREENBELT STATION + BUS BAY D",
+            "StopSeq": 82,
+            "Time": "2014-10-27T11:19:00Z"
+        }],
+        "TripDirectionText": "SOUTH",
+        "TripHeadsign": "GREENBELT STATION",
+        "TripID": "6794856"
+    }],
+    "Name": "B30 - B30 GREENBELT-BWI (647)"
+}

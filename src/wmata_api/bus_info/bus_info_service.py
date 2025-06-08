@@ -4,7 +4,7 @@ from wmata_api.core.wmata_api_module import WmataApiModule
 from typing import List, Optional, Dict, Any
 
 from wmata_api.core.wmata_endpoints import BusInformation
-from wmata_api.models.bus_location import BusPosition
+from wmata_api.models.bus_position import BusPosition
 from wmata_api.models.bus_path import BusPath
 from wmata_api.models.bus_route import BusRoute
 from wmata_api.models.bus_route_schedule import BusRouteSchedule

@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from datetime import datetime
 from typing import List
 
+from wmata_api.core.utils import parse_wmata_timestamp
 from wmata_api.models.bus_direction import BusDirection
 from wmata_api.models.bus_stop import BusStop
 
@@ -12,19 +13,19 @@ class BusStationArrival:
     schedule_time: datetime
     route_id: str
     direction: BusDirection
-    trip_headsign: str
+    destination: str
     trip_id: str
 
     @staticmethod
     def from_json(json) -> 'BusStationArrival':
         return BusStationArrival(
-            start_time=datetime.fromisoformat(json['StartTime']),
-            end_time=datetime.fromisoformat(json['EndTime']),
-            schedule_time=datetime.fromisoformat(json['ScheduleTime']),
+            start_time=parse_wmata_timestamp(json['StartTime']),
+            end_time=parse_wmata_timestamp(json['EndTime']),
+            schedule_time=parse_wmata_timestamp(json['ScheduleTime']),
             route_id=json['RouteID'],
             direction=BusDirection.from_string(json['TripDirectionText']),
-            trip_headsign=json['TripHeadsign'],
-            trip_id=json['TripId']
+            destination=json['TripHeadsign'],
+            trip_id=json['TripID']
         )
 
 @dataclass(frozen=True)
@@ -34,7 +35,11 @@ class BusStopSchedule:
 
     @staticmethod
     def from_json(json) -> 'BusStopSchedule':
+        arrivals_data = json.get('ScheduleArrivals') or []
+
+        scheduled_arrivals = [BusStationArrival.from_json(sa) for sa in arrivals_data]
+
         return BusStopSchedule(
             stop=BusStop.from_json(json['Stop']),
-            scheduled_arrivals=[BusStationArrival.from_json(sa) for sa in json['ScheduleArrivals']]
+            scheduled_arrivals=scheduled_arrivals
         )

@@ -1,5 +1,6 @@
 from dataclasses import dataclass
-from typing import List
+from typing import List, Optional
+
 
 @dataclass(frozen=True)
 class BusStop:
@@ -7,7 +8,7 @@ class BusStop:
     longitude: float
     name: str
     routes: List[str]
-    stop_id: str
+    stop_id: Optional[str]
 
     @staticmethod
     def from_json(json) -> "BusStop":
