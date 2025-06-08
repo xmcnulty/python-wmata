@@ -1,7 +1,7 @@
 from typing import List
 
 from src.wmata_api.core.wmata_api_module import WmataApiModule
-from src.wmata_api.core.wmata_endpoint import RailInfoEndpoint
+from src.wmata_api.core.wmata_endpoints import RailInfoEndpoint
 from src.wmata_api.models.line_code import LineCode
 from src.wmata_api.models.station import Station
 from src.wmata_api.models.station_entrance import StationEntrance

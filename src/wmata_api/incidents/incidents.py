@@ -1,7 +1,7 @@
 from typing import List
 
 from src.wmata_api.core.wmata_api_module import WmataApiModule
-from src.wmata_api.core.wmata_endpoint import IncidentsEndpoint
+from src.wmata_api.core.wmata_endpoints import IncidentsEndpoint
 from src.wmata_api.models.bus_incident import BusIncident
 from src.wmata_api.models.elevator_escalator_outage import ElevatorEscalatorOutage
 from src.wmata_api.models.rail_incident import RailIncident

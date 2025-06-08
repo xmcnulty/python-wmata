@@ -1,7 +1,7 @@
 from typing import List
 
 from src.wmata_api.core.wmata_api_module import WmataApiModule
-from src.wmata_api.core.wmata_endpoint import RailPredictionsEndpoint
+from src.wmata_api.core.wmata_endpoints import RailPredictionsEndpoint
 from src.wmata_api.models.rail_prediction_info import RailPredictionInfo
 
 

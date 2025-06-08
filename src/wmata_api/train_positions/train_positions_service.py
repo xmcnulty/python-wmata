@@ -1,6 +1,6 @@
 from typing import List
 from src.wmata_api.core.wmata_api_module import WmataApiModule
-from src.wmata_api.core.wmata_endpoint import TrainPositionsEndpoint
+from src.wmata_api.core.wmata_endpoints import TrainPositionsEndpoint
 from src.wmata_api.models.standard_route import StandardRoute
 from src.wmata_api.models.track_circuit import DetailedTrackCircuit
 from src.wmata_api.models.train_position import TrainPosition

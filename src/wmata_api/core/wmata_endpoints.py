@@ -32,3 +32,11 @@ class IncidentsEndpoint(EndpointMixin, Enum):
     BUS_INCIDENTS = "Incidents.svc/json/BusIncidents"
     RAIL_INCIDENTS = "Incidents.svc/json/Incidents"
     ELEVATOR_ESCALATOR_INCIDENTS = "Incidents.svc/json/ElevatorIncidents"
+
+class BusInformation(EndpointMixin, Enum):
+    STOP_SEARCH = "Bus.svc/json/jStops"
+    BUS_ROUTES = "Bus.svc/json/jRoutes"
+    BUS_POSITIONS = "Bus.svc/json/jBusPositions"
+    BUS_PATH = "Bus.svc/json/jRouteDetails"
+    ROUTE_SCHEDULE = "Bus.svc/json/jRouteSchedule"
+    STOP_SCHEDULE = "Bus.svc/json/jStopSchedule"

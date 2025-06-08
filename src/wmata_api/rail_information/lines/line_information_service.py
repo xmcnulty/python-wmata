@@ -1,7 +1,7 @@
 from typing import List
 
 from src.wmata_api.core.wmata_api_module import WmataApiModule
-from src.wmata_api.core.wmata_endpoint import RailInfoEndpoint
+from src.wmata_api.core.wmata_endpoints import RailInfoEndpoint
 from src.wmata_api.models.metro_path_item import MetroPathItem
 from src.wmata_api.models.rail_line import RailLine
 
